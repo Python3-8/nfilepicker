@@ -17,7 +17,7 @@ with `ncurses`.
 ...    '.sqlite3',
 ...  )
 ... )
-'/Users/person/Desktop/file.txt'
+'/Users/person/Desktop/list.db'
 >>> select_folder('Choose a folder.')
 '/usr/libexec'
 ```
