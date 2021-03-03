@@ -9,7 +9,7 @@ def select_file(title='Choose a file.', exts=('',)):
     while not file_selected:
         files = ['../']
         for name in os.listdir(path):
-            if not name.endswith(exts) and os.path.isfile(os.path.join(path, name)):
+            if not name.lower().endswith(exts) and os.path.isfile(os.path.join(path, name)):
                 continue
             files.append(
                 name + ('/' if os.path.isdir(os.path.join(path, name)) else ''))

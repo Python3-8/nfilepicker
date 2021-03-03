@@ -24,3 +24,8 @@ with `ncurses`.
 
 ## Prerequisites
 On Windows, this package requires the `windows-curses` package.
+
+## Features
+Version 1.0.1 has the ability to select files case insensitively. This
+version of NFilePicker will display ABC123.JPG (Note the capitalized 'JPG')
+as a *.jpg file.

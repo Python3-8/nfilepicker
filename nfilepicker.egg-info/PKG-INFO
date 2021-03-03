@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: nfilepicker
-Version: 1.0.0
+Version: 1.0.1
 Summary: A Python package that creates a file/folder chooser with ncurses.
 Home-page: https://github.com/Python3-8/nfilepicker
 Author: Pranav Balaji Pooruli
@@ -25,13 +25,19 @@ Description: # NFilePicker
         ...    '.sqlite3',
         ...  )
         ... )
-        '/Users/person/Desktop/file.txt'
+        '/Users/person/Desktop/list.db'
         >>> select_folder('Choose a folder.')
         '/usr/libexec'
         ```
         
         ## Prerequisites
         On Windows, this package requires the `windows-curses` package.
+        
+        ## Features
+        Version 1.0.1 has the ability to select files case insensitively. This
+        version of NFilePicker will display ABC123.JPG (Note the capitalized 'JPG')
+        as a *.jpg file.
+        
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
