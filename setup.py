@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name='nfilepicker',
-    version='1.0.1',
+    version='1.0.2',
     description='A Python package that creates a file/folder chooser with ncurses.',
     long_description=readme(),
     long_description_content_type='text/markdown',
